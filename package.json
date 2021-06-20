@@ -1,6 +1,7 @@
 {
   "name": "test.io",
   "version": "1.0.0",
+  "type": "module",
   "description": "my test repo",
   "main": "index.js",
   "scripts": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ruslanmust/hexlet.js/issues"
   },
-  "homepage": "https://github.com/ruslanmust/hexlet.js#readme"
+  "homepage": "https://github.com/ruslanmust/hexlet.js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
